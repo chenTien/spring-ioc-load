@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans>
+    <bean name="beanA" class="beans.BeanA">
+        <property name="name" value="Tom"></property>
+    </bean>
+
+    <bean name="beanB" class="beans.BeanB" scope="protoType">
+        <property name="beanA" ref="beanA"></property>
+    </bean>
+
+    <bean name="beanC" class="beans.BeanC" scope="protoType">
+        <property name="beanB" ref="beanB"></property>
+    </bean>
+</beans>

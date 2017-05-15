@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="dom4j-1.6">
+    <CLASSES>
+      <root url="jar://E:/spring4libs/dom4j/dom4j-1.6.jar!/" />
+      <root url="jar://E:/spring4libs/test/junit-4.12.jar!/" />
+      <root url="jar://E:/spring4libs/test/hamcrest-core-1.3.jar!/" />
+      <root url="jar://E:/spring4libs/jaxen-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
